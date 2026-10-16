@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #18191B;
+    --bg-secondary: #222326;
+    --bg-card: #2B2C30;
+    --accent-silver: #BFC3C9;
+    --text-main: #F5F5F5;
+    --text-muted: #A6A7AB;
+    --border-subtle: #414247;
+  }
+
+  body {
+    background-color: #18191B;
+    color: #F5F5F5;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Custom utility classes */
+.font-heading {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
